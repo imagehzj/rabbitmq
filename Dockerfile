@@ -4,7 +4,7 @@ LABEL maintainer="shoothzj@gmail.com"
 
 ENV RABBITMQ_HOME /opt/sh/rabbitmq
 
-ARG version=3.9.4
+ARG version=3.9.11
 
 RUN wget -q https://github.com/rabbitmq/rabbitmq-server/releases/download/v$version/rabbitmq-server-generic-unix-$version.tar.xz && \
 mkdir /opt/sh/rabbitmq && \
